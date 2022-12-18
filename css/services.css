@@ -1,0 +1,411 @@
+.Header_block {
+    background: #65256F;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 10px;
+}
+
+.Header_block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+}
+
+.header_right_block {
+    display: flex;
+    align-items: center;
+
+}
+
+.fhone {
+    margin-left: 20px;
+}
+
+.header_text {
+    color: gold;
+    font-weight: 600;
+    font-size: 16px;
+
+
+}
+
+.header_text_white {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+/* ============================================ */
+.big_box {
+    max-width: 90%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 110px;
+
+
+
+}
+
+.container_bottom {
+    display: block;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+nav {
+    flex: 0 1 70%;
+}
+
+.menu {
+    margin-right: 31px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+
+}
+
+.menu a {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 17.07px;
+    text-decoration: none;
+    color: #2A2828;
+}
+
+.menu a:hover {
+    display: inline;
+    border-bottom: 3px solid #FFB700;
+    color: #FFB700;
+}
+
+button {
+    background-color: #65256F;
+    border-radius: 5px;
+    color: white;
+    width: 168px;
+    height: 42px;
+    font-size: 12px;
+}
+
+.services_container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.services {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.title {
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 45%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+/* ------------------------------------------------------------------- */
+.services_block {
+    display: grid;
+    grid-template-columns: repeat(auto-fitt, minmax(342px, 1fr));
+    grid-auto-rows: minmax(342px, 3fr);
+    width: 100%;
+    height: 100%;
+    grid-auto-flow: column;
+    grid-auto-flow: row;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+
+.services_block div:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+
+
+.services_block div:nth-child(6) {
+    grid-row: 3;
+    grid-column: 1 / 3;
+}
+
+.services_block {
+    position: relative;
+    margin-top: 50px;
+}
+
+.services_block p {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image p {
+    top: 210px;
+    left: 110px;
+}
+
+.image1 p {
+    top: 245px;
+    left: 510px;
+}
+
+.image2 p {
+    top: 595px;
+    left: 930px;
+}
+
+.image3 p {
+    top: 595px;
+    left: 140px;
+}
+
+.image4 p {
+    top: 595px;
+    left: 520px;
+}
+
+.image5 p {
+    top: 960px;
+    left: 350px;
+}
+
+.image6 p {
+    top: 960px;
+    left: 915px;
+}
+
+.Benefits {
+    margin-top: 50px;
+}
+
+.Benefits_container {
+    max-width: 1170px;
+}
+
+.Benefits_title {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.Benefits_title {
+    position: relative;
+}
+
+.Benefits_title::before,
+.Benefits_title::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 45%;
+}
+
+.Benefits_title::before {
+    left: 0;
+}
+
+.Benefits_title::after {
+    right: 0;
+}
+
+.benefits_block {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 180px;
+    /* margin-right: 180px; */
+    width: 1150px;
+
+
+
+}
+
+.benefits_box {
+    position: relative;
+}
+
+.benefits_box p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.vector1 {
+    position: absolute;
+    bottom: 64px;
+    right: 71px;
+}
+
+.app_container {
+    max-width: 1170px;
+}
+
+.app {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+.call {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    padding: 50px 0 20px 0;
+
+}
+
+.job {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    color: #585858;
+}
+
+.name_service {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.name_service li {
+    font-size: 18px;
+    color: #737272;
+    font-family: 'Gilroy';
+    line-height: 100%;
+
+
+
+}
+
+.you_name {
+    background-color: #ECE8E8;
+    width: 240px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.fhon {
+    background-color: #ECE8E8;
+    width: 240px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.Send {
+    background-color: #ECE8E8;
+    width: 240px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-left: 25px;
+}
+
+.name_service li:hover {
+    background-color: #65256F;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    width: 200px;
+}
+
+.info {
+    background-color: rgb(56, 55, 55);
+    display: block;
+    height: 324px;
+    margin-top: 50px;
+}
+
+.footer_container {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.footer_info {
+    margin-top: 2%;
+
+}
+
+.footer_info li {
+    list-style-type: none;
+    /* padding-right: 450px; */
+}
+
+.footer_info h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.footer_info p {
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 2px 0;
+    line-height: 30px;
+
+}

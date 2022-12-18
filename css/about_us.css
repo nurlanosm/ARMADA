@@ -1,0 +1,541 @@
+.Header_block {
+    background: #65256F;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Header_block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+}
+
+.header_right_block {
+    display: flex;
+    align-items: center;
+
+}
+
+.fhone {
+    margin-left: 20px;
+}
+
+.header_text {
+    color: gold;
+    font-weight: 600;
+    font-size: 16px;
+
+
+}
+
+.header_text_white {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+/* ============================================ */
+.big_box {
+    max-width: 90%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 110px;
+
+
+
+}
+
+.container_bottom {
+    display: block;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+nav {
+    flex: 0 1 70%;
+}
+
+.menu {
+    margin-right: 31px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+
+}
+
+.menu a {
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 17.07px;
+    text-decoration: none;
+    color: #2A2828;
+}
+
+.menu a:hover {
+    display: inline;
+    border-bottom: 3px solid #FFB700;
+    color: #FFB700;
+}
+
+button {
+    background-color: #65256F;
+    border-radius: 5px;
+    color: white;
+    width: 168px;
+    height: 42px;
+    font-size: 12px;
+}
+
+.picture_container {
+    max-width: 1170px;
+}
+
+.picture_box {
+    margin-top: 50px;
+    margin-left: 175px;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 45%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+.subtitle_container {
+    max-width: 1170px;
+}
+
+.text {
+    width: 1169px;
+    height: 81px;
+    margin-left: 170px;
+}
+
+.text p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Gilroy";
+    font-size: 18px;
+    color: #4C4C54;
+
+
+}
+
+.container {
+    max-width: 1170px;
+
+}
+
+.sevices_dizigns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.design {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05);
+    height: 250px;
+    flex: 0 1 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.design p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.story_fone {
+    background: url('../img/company/Rectangle110.png') center / cover no-repeat;
+    width: 100%;
+    height: 445px;
+}
+
+.story_shadow {
+    width: 100%;
+    height: 445px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.title_fone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+
+}
+
+.story_block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 1134px;
+    margin: 0 auto;
+    color: white;
+}
+
+.story_block h3 {
+    margin-top: 40px;
+    margin-left: 65px;
+    width: 100px;
+    height: 97.56px;
+    border: 6px solid #FFB700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.border {
+    display: block;
+
+}
+
+.border p {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.story_btns_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.story_block-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: gray;
+    margin-left: 10px;
+}
+
+.story_block-button:hover {
+    background: #FFB700;
+}
+
+.arrow button {
+    margin-left: 50px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrow button:hover {
+    background: rgba(208, 183, 234, 0);
+}
+
+.Benefits {
+    margin-top: 50px;
+}
+
+.Benefits_container {
+    max-width: 1170px;
+}
+
+.Benefits_title {
+    font-family: 'Gilroy';
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.Benefits_title {
+    position: relative;
+}
+
+.Benefits_title::before,
+.Benefits_title::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 45%;
+}
+
+.Benefits_title::before {
+    left: 0;
+}
+
+.Benefits_title::after {
+    right: 0;
+}
+
+.benefits_block {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 180px;
+    /* margin-right: 180px; */
+    width: 1150px;
+
+
+
+}
+
+.benefits_box {
+    display: block;
+    position: relative;
+    margin-top: 40px;
+}
+
+.benefits_box p {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.vector1 {
+    position: absolute;
+    bottom: 64px;
+    right: 71px;
+}
+
+.title {
+    font-family: 'Gilroy';
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.title {
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 45%;
+}
+
+.title::before {
+    left: 0;
+}
+
+.title::after {
+    right: 0;
+}
+
+.clients_continer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nike_box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.images_nike {
+
+    display: flex;
+    justify-content: space-between;
+    width: 167px;
+    height: 130px;
+
+}
+
+.app_container {
+    max-width: 1170px;
+}
+
+.app {
+    display: block;
+    margin-left: 350px;
+}
+
+.call {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    padding: 40px 0 20px 0;
+
+}
+
+.job {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    color: #585858;
+}
+
+.name_service {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.name_service li {
+    font-size: 18px;
+    color: #737272;
+    font-family: 'Gilroy';
+    line-height: 100%;
+
+
+
+}
+
+.you_name {
+    background-color: #ECE8E8;
+    width: 240px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.fhon {
+    background-color: #ECE8E8;
+    width: 240px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.Send {
+    background-color: #ECE8E8;
+    width: 240px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-left: 25px;
+}
+
+.name_service li:hover {
+    background-color: #65256F;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    width: 200px;
+}
+
+.info {
+    background: #737272;
+    height: 324px;
+    color: #fff;
+}
+
+
+
+.info_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 0 150px;
+}
+
+.footer_info {
+    margin-top: 50px;
+    /* flex: 0 1 50%; */
+}
+
+.footer_info li {
+    list-style-type: none;
+}
+
+.footer_info h2 {
+    text-align: start;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.footer_info p {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+
+}
